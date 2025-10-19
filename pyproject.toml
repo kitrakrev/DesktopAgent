@@ -1,0 +1,18 @@
+[project]
+name = "voice-chat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv>=1.0.0",
+    "google-genai>=1.45.0",
+    "pyaudio>=0.2.14",
+    "pillow>=10.0.0",
+    "opencv-python>=4.8.0",
+    "numpy>=1.24.0",
+    "mss>=10.1.0",
+    "sounddevice>=0.5.2",
+    "pynput>=1.8.1",
+    "pyautogui>=0.9.54",
+]
